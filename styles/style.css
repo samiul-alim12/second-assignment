@@ -109,6 +109,35 @@
     font-weight: 700;
     border: none;
 }
+/* curriculum section */
+.curriculum-title{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.86rem;
+}
+.curriculum{
+    background-image: url('../assets/bg.png');
+}
+.card{
+    max-width: 367px;
+}
+.card-1{
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    background: linear-gradient(to top, #e5f5fc, #70b1d6);
+}
+.card-2{
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    background: linear-gradient(to top, #fff8e9, #e9b9d3);
+}
+.card-3{
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    background: linear-gradient(to top, #f6eeff, #a966f5);
+}
 
 
 

@@ -123,6 +123,7 @@
 
 
 
+
 /* responsive for mobile devices */
 @media screen and (max-width: 576px) {
     /* responsive nav section */
@@ -142,6 +143,38 @@
     }
     .size{
         display: contents;
+    }
+    /* responsive banner section */
+    .banner-images img{
+        max-width: 100%;
+    }
+    .banner-images{
+        margin-top: 28px;
+        margin-left: 26px;
+        margin-right: 27px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .banner-description{
+        margin: 20px 16px;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2.1rem; 
+    }
+    .banner-details{
+        font-size: 0.9rem;
+        margin-bottom: 18px;
+        margin-top: 18px;
+    }
+    .banner-btn{
+        font-size: 0.9rem;
+        font-weight: 700;
+        padding: 6px 24px;
+        width: 130px;
+        height: 42px;
     }
 }
 

@@ -249,12 +249,13 @@
 }
 .sm-4{
     background-color: white;
-    border-radius: 16px;
+    border-radius: 16px; 
 }
 .stories-btn{
     text-align: center;
     margin-top: 80px;
 }
+
 .btn{
     background-color: black;
     padding: 10px 61px;
@@ -263,7 +264,9 @@
     font-weight: 700;
     font-size: 1.25rem;
     border-radius: 12px;
+    margin-bottom: 60px;
 }
+
 
 
 
@@ -331,6 +334,10 @@
     .arrow{
         display: none;
     }
+    
+    .card-image {
+    padding: 36px 115px 32px 115px;
+    }
     .card{
         flex-direction: column;
         gap: 12.3px;
@@ -346,6 +353,49 @@
         font-size: 0.6rem;
         text-align: center;
     }
+    /* responsive our stories section */
+    .big-image{
+        display: none;
+    }
+    .stories-title{
+        margin-top: 40px;
+        margin-bottom:20px ;
+        font-size: 1.6rem;
+    }
+    .small-image{
+        gap: 11px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .sm-1 img{
+        width: 100%;
+    }
+    .sm-2 img{
+        width: 100%;
+    }
+    .sm-3 img{
+        width: 100%;
+    }
+    .sm-4 img{
+        width: 100%;;
+    }
+    .sm-1, .sm-2, .sm-3, .sm-4{
+        width: 100%;
+    }
+    
+    .sm-details{
+        font-size: 0.6rem;
+        padding: 22px 23px 17px 22px;
+        line-height: 17px;
+
+    }
+    .stories-btn{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 1rem;
+    }
+    
+    
 }
 
 

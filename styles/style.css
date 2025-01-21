@@ -110,6 +110,7 @@
     border: none;
 }
 /* curriculum section */
+
 .curriculum-title{
     margin-top: 60px;
     margin-bottom: 80px;
@@ -124,8 +125,6 @@
     /* max-width: 367px; */
     display: flex;
     gap: 28px;
-    height: 476px;
-    
 }
 .card-1{
     box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
@@ -136,7 +135,7 @@
 .card-2{
     box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
-    background: linear-gradient(to top, #fff8e9, #e9b9d3);
+    background: linear-gradient(to top, #faf0dc, #e9b9d3);
 }
 .card-3{
     box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
@@ -144,7 +143,7 @@
     background: linear-gradient(to top, #f6eeff, #a966f5);
 }
 .card-image{
-    padding: 52.82px 115.5px 32.07px 115.54px;
+    padding: 52px 115px 32px 115px;
 }
 .card-title{
     color: #202020;
@@ -158,22 +157,29 @@
     font-size: 0.94rem;
     font-weight: 500;
     text-align: center;
-    padding: 32.48px 40.67px 33.95px 40.88px;
+    padding: 32px 40px 0px 40px;
 }
 .card-link{
-    text-decoration: none;
-    padding: 0px 132.42px 58.48px 132.46px;
+    padding: 33px 132px 53px 132px;
     font-weight: 700;
     font-size: 0.94rem;
 }
 .clr-1{
     color: #64C8FF;
+    text-decoration: none;
 }
 .clr-2{
     color: #F0AA00;
+    text-decoration: none;
 }
 .clr-3{
     color: #8700FF;
+    text-decoration: none;
+}
+.arrow{
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
 }
 
 
@@ -240,6 +246,25 @@
         padding: 6px 24px;
         width: 130px;
         height: 42px;
+    }
+    /* responsive card section */
+    .arrow{
+        display: none;
+    }
+    .card{
+        flex-direction: column;
+        gap: 12.3px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .curriculum-title{
+        font-size: 1.6rem;
+        margin: 40px 64px 20px 64px;
+    }
+    .card-link{
+        /* padding: 22px 143px 36px 143px; */
+        font-size: 0.6rem;
+        text-align: center;
     }
 }
 

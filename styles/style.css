@@ -129,18 +129,18 @@
 .card-1{
     box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
-    background: linear-gradient(to top, #e5f5fc, #70b1d6);
+    background: linear-gradient(to bottom, #70b1d6, #f0eded );
 
 }
 .card-2{
     box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
-    background: linear-gradient(to top, #faf0dc, #e9b9d3);
+    background: linear-gradient(to bottom, #f3d9a5, #f0eded);
 }
 .card-3{
     box-shadow: 0px 0px 28.3px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
-    background: linear-gradient(to top, #f6eeff, #a966f5);
+    background: linear-gradient(to bottom, #c0a1e4, #f0eded);
 }
 .card-image{
     padding: 52px 115px 32px 115px;
@@ -180,10 +180,90 @@
     justify-content: center;
     display: flex;
     margin-top: 80px;
+    margin-bottom: 60px;
 }
+/* stories section */
 
-
-
+.our-stories{
+    background-image:linear-gradient(to top, rgba(254, 163, 1, 0.3), #ffff);  
+}
+.stories-container {
+    background-image: url('../assets/bg.png');
+}
+.stories-title{
+    padding-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.big-image{
+    max-width: 540px;
+}
+.stories-images{
+    display: flex;
+    gap: 18px;
+    border-radius: 16px;
+}
+.stories-images img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.small-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+.big-image{
+    background-color: white;
+    border-radius: 16px;
+}
+.big-image-title{
+    padding: 58px 38px 0px 38px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.big-image-description{
+    padding: 47px 68px 34px 38px;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #666666;
+}
+.sm-details{
+    padding: 38px 38px 28px 38px;
+    font-size: 0.94rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+}
+.sm-1{
+    background-color: white;
+    border-radius: 16px;
+}
+.sm-2{
+    background-color: white;
+    border-radius: 16px;
+}
+.sm-3{
+    background-color: white;
+    border-radius: 16px;
+}
+.sm-4{
+    background-color: white;
+    border-radius: 16px;
+}
+.stories-btn{
+    text-align: center;
+    margin-top: 80px;
+}
+.btn{
+    background-color: black;
+    padding: 10px 61px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 12px;
+}
 
 
 

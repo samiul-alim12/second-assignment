@@ -435,10 +435,43 @@
     }
     .stories-btn{
         margin-top: 20px;
-        margin-bottom: 40px;
         font-size: 1rem;
     }
-    
+    /* responsive footer section */
+    .footer-container{
+        flex-direction: column;
+        padding-top: 65px;
+        height: 642px;
+    }
+    .edu-title{
+        margin-left: 16px;
+    }
+    .edu-details{
+        margin-left: 21px;
+        max-width: 357px;
+        margin-right: 12px;
+        margin-bottom: 32px;
+    }
+    .about{
+        margin-left: 20px;
+    }
+    .about-title{
+        margin-bottom: 27px;
+    }
+    .about-nav{
+        margin-bottom: 17px;
+    }
+    .logo{
+        margin-left: 20px;
+        margin-top: 31px;
+    }
+    .logo-title{
+        margin-bottom: 36px;
+    }
+    .logo-imge img{
+        margin-right: 8px;
+        margin-bottom: 60px ;
+    }
     
 }
 
